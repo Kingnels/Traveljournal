@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600;700&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+    font-family: 'Inter', sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a{
+  color: #918E9B;
+  padding-left: 10px; 
+  font-size: 11px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.pin{
+  width: 10px;
+  height: 12px;
+}
+.navbar{
+  /* padding: 1rem; */
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background: #F55A5A;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.cont{
+  padding: 1rem;
+}
+.globe{
+  width: 20px;
+  height: 20px;
+  /* display: inline; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title{
+  display: inline;
+  padding-left: 10px;
 }
+
+.card-container{
+  display: flex;
+  padding: 1rem;
+  gap: 2rem;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+}
+.image{
+  width: 125px;
+  height:100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.card-photo{
+  width: 100%;
+  height: 168px;
+  transform: scale(1.15);
+}
+.details{
+  max-height: 100%;
+  /* padding-bottom: 0.5rem; */
+  /* border: 1px solid black; */
+  padding-top: 0.5rem;
+}
+.description{
+  font-family: Inter;
+  font-style: Regular;
+  font-size: 11px;
+  padding: 10px 0;
+  /* line-height: 15px; */
+  line-height: 150%;
+  text-align:  Left;
+  vertical-align:Top;
+  max-width: 325px;
+  height: 90px;
+  overflow-y: auto;
+  text-overflow: ellipsis;
+  /* border: 1px solid black; */
+}
+.place{
+  color: #2B283A;
+  font-size: 25px;
+  font-style: Regular;
+  line-height: 150%;
+  text-align:  Left;
+  margin-bottom: 4px;
+  vertical-align:Top;
+}
+.date{
+  font-size:12px
+}
+
+.main-content{
+  margin: 2rem;
+}
+/* height: 168px;
+width: 125px;
+left: 39px;
+top: 118px;
+border-radius: 5px; */
+
+
+
+/* Font family: Inter
+Font style: Bold
+Font size: 25px
+Line height: 30px
+Line height: 100%
+Align: Left
+Vertical align: Top */

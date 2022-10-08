@@ -70,7 +70,8 @@ a{
   vertical-align:Top;
   max-width: 325px;
   height: 90px;
-  overflow-y: auto;
+  overflow-y:auto;
+  /* white-space: nowrap; */
   text-overflow: ellipsis;
   /* border: 1px solid black; */
 }

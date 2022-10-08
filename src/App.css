@@ -88,7 +88,10 @@ a{
 }
 
 .main-content{
-  margin: 2rem;
+  margin: 1rem auto;
+  max-width: 550px;
+  min-width: 300px ;
+  /* border: 1px solid black; */
 }
 /* height: 168px;
 width: 125px;

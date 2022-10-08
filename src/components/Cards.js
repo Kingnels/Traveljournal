@@ -7,7 +7,6 @@ function Cards(props) {
         <div className="image">
             <img className="card-photo" src={props.item.imageUrl} alt="" />
         </div>
-
         <div className="details">
             <p><img className = "pin" src={pin} alt=""/> {props.item.location} <span><a href={props.item.googleMapsUrl}>View on Google Maps</a></span></p>
             <h1 className='place'>{props.item.title}</h1>
